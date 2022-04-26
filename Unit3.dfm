@@ -13,4 +13,13 @@ object Form3: TForm3
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object btnMessage: TButton
+    Left = 184
+    Top = 72
+    Width = 75
+    Height = 25
+    Caption = 'Message'
+    TabOrder = 0
+    OnClick = btnMessageClick
+  end
 end
